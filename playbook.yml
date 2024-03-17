@@ -1,0 +1,18 @@
+- name: Install k8s docker and dependency 
+  become: yes
+  hosts: tag_name_tag-k8s
+  roles:
+    - docker
+    - k8s-all-node
+
+- name: k8s cplane node
+  become: yes
+  hosts: tag_type_tag-cplane
+  roles:
+    - k8s-cplane-node
+
+- name: k8s worker node
+  become: yes
+  hosts: tag_type_tag-worker
+  roles:
+    - k8s-worker-node

@@ -1,0 +1,6 @@
+install_k8s:
+- apt-transport-https
+- curl
+- kubelet
+- kubeadm
+- kubectl
