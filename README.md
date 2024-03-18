@@ -35,4 +35,7 @@ Este projeto tem como objetivo fornecer um método simples para configurar um cl
 Para mais informações sobre como utilizar este projeto, consulte a documentação dentro de cada diretório correspondente.
 
 ---
-**Nota:** Certifique-se de configurar corretamente suas credenciais AWS e as configurações do Drone CI antes de utilizar este projeto em seu próprio ambiente.
+**Nota:** Certifique-se de :
+- configurar corretamente suas credenciais AWS.
+- criar conta no Drone CI e configurar antes de utilizar este projeto em seu próprio ambiente.
+- Subtistituir chave ssh do arquivo main.tf por sua propria chave ssh.
