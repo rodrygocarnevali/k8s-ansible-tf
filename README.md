@@ -1,6 +1,6 @@
 # Cluster Kubernetes para Implantação Rápida - Estudos DevOps
 
-Este é um projeto pessoal simples de DevOps, projetado para explorar e entender os conceitos relacionados.
+Este é um projeto pessoal simples, projetado para explorar e entender os conceitos relacionados.
 
 ## Ferramentas DevOps Utilizadas:
 
